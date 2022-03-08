@@ -43,7 +43,7 @@ router.post('/vote', ({ body }, res) => {
               message: 'success',
               data: results
           });
-  })
+  })    
 });
 
   module.exports = router;
